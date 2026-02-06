@@ -20,7 +20,7 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
     text-align: center;
     margin: 20px 0;
     overflow: scroll;
@@ -34,15 +34,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     cursor: pointer;
+    padding: 6px;
 }
 
-.explore-menu-list-item img{
-    width: 7.5vw;
-    min-width: 80px;
-    border-radius: 50%;
-}
+
 
 .explore-menu-list-item img{
     width: 7.5vw;
@@ -64,4 +61,9 @@
     height: 2px;
     background-color: #e2e2e2;
     border:none;
+}
+
+.explore-menu-list-item img.active{
+    outline: 3px solid tomato;
+    outline-offset: 2px;
 }
