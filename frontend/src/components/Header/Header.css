@@ -39,3 +39,64 @@
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
+@media (max-width: 1050px) {
+    .header-contents{
+        max-width: 60%;
+        left: 10vw;
+        gap: 2vw;
+    }
+}
+
+@media (max-width: 750px) {
+    .header{
+        height: 45vw;
+    }
+
+    .header-contents{
+        max-width: 75%;
+        left: 6vw;
+        bottom: 10%;
+        gap: 2.5vw;
+    }
+
+    .header-contents h2{
+        font-size: max(3.5vw, 18px);
+    }
+
+    .header-contents p{
+        font-size: max(1.5vw, 11px);
+    }
+
+    .header-contents button{
+        padding: 1.5vw 3.5vw;
+        font-size: max(1.2vw, 11px);
+    }
+}
+
+@media (max-width: 480px) {
+    .header{
+        height: 55vw;
+        margin: 15px auto;
+    }
+
+    .header-contents{
+        max-width: 90%;
+        left: 4vw;
+        bottom: 8%;
+        gap: 3vw;
+    }
+
+    .header-contents h2{
+        font-size: 18px;
+    }
+
+    .header-contents p{
+        font-size: 10px;
+    }
+
+    .header-contents button{
+        padding: 6px 14px;
+        font-size: 11px;
+    }
+}

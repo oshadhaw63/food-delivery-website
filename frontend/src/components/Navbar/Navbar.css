@@ -98,4 +98,41 @@
         display:none;
     }
 
+    .navbar .logo{
+        width:120px;
+    }
+
+    .navbar-right{
+        gap: 20px;
+    }
+
+    .navbar-right img{
+        width:18px;
+    }
+
+    .navbar button{
+        padding: 6px 16px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar{
+        padding: 14px 0;
+    }
+
+    .navbar .logo{
+        width:100px;
+    }
+
+    .navbar-right{
+        gap: 14px;
+    }
+
+    .navbar button{
+        padding: 5px 12px;
+        font-size: 12px;
+    }
+}
+
 }
