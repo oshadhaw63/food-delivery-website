@@ -18,6 +18,16 @@
     font-size: 18px;
 }
 
+.navbar-menu a{
+    text-decoration: none;
+    color: #49557e;
+    cursor: pointer;
+}
+
+.navbar-menu a:hover{
+    color: #2e3a5e;
+}
+
 .navbar-right{
     display: flex;
     align-items: center;
@@ -135,4 +145,3 @@
     }
 }
 
-}
